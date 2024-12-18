@@ -1,5 +1,5 @@
 const { expect } = require('chai');
-const { clickElement, putText, getText, getDayTwoAhead } = require('./lib/commands.js');
+const { clickElement, putText, getText, } = require('./lib/commands.js');
 const { generateName } = require('./lib/util.js');
 const { timeout } = require('puppeteer');
 
