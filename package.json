@@ -1,0 +1,22 @@
+{
+  "name": "jsaqa_3_3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --runInBand",
+    "cucumber": "cucumber-js",
+    "cucumber1": "cucumber-js --tags=@only"
+  },
+  "author": "Nikolay Martoplyas",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "cucumber": "^6.0.7"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-puppeteer": "^10.1.4",
+    "puppeteer": "^23.10.4"
+  }
+}
